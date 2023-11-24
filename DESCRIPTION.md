@@ -12,7 +12,7 @@ Brief description about the project and how to start it
 10. After that we need to set (.env) file and namely: 1) DB_DATABASE - your database name 2) DB_USERNAME - username in Mysql 3) DB_PASSWORD - password in Mysql 4) APP_KEY - to get this key, we need to run command in terminal like: php artisan key:generate
 11. Install Frontend Dependencies with the command: npm install
 12. Also need to install Vue using the command: npm install vue@next
-13. Necessary to create a folder (csv) in this directory (storage/app/csv) and place (data.csv) file there, which we will be seeding
+13. Necessary to create a folder (csv) in this directory (storage/app/csv) and place (data.csv) file there, which we will be seeding, and this file itself is located in the main project folder
 14. Then we can run migrations: php artisan migrate
 15. Also we need seeding data.csv file using command: php artisan db:seed --class=PropertiesTableSeeder
 16. And finally we can start the project for that we need have two terminals in one we use (php artisan serve) and in second (npm run dev), and after that we can go to localhost (http://127.0.0.1:8000/) for testing application
